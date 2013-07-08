@@ -1,7 +1,7 @@
 { "name" : "amqp"
 , "description" : "AMQP driver for node"
 , "keywords" : [ "amqp" ]
-, "version" : "0.1.3-nd3"
+, "version" : "0.1.2-nd4"
 , "private" : false
 , "publishConfig" : {"registry" : "http://hmon:5984/registry/_design/app/_rewrite"}
 , "preferGlobal" : true
