@@ -3,7 +3,7 @@
 , "keywords" : [ "amqp" ]
 , "version" : "0.1.2-nd4"
 , "private" : false
-, "publishConfig" : {"registry" : "http://hmon:5984/registry/_design/app/_rewrite"}
+, "publishConfig" : {"registry" : "http://hmon:4873/"}
 , "preferGlobal" : true
 , "author" : { "name" : "Ryan Dahl" }
 , "contributors" :
