@@ -1717,9 +1717,9 @@ Queue.prototype._onMethod = function (channel, method, args) {
     case methods.channelClose:
       this.state = "closed";
       this.connection.queueClosed(this.name);
-      var e = new Error(args.replyText);
-      e.code = args.replyCode;
-      this.emit('error', e);
+      //var e = new Error(args.replyText);
+      //e.code = args.replyCode;
+      //this.emit('error', e);
       this.emit('close');
       break;
     
